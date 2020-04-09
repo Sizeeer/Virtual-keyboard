@@ -1,0 +1,79 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#keyboard{
+	display: block;
+	padding: 5px;
+	background-color: #452A8F;
+	margin-top: 20px;
+	border: 3px solid #310F8F;
+}
+
+.k-key{
+	width: 46px;
+	height: 46px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 3px;
+	float: left;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3A424E;
+	transition: 0.5s;
+}
+
+.k-key-backspace{
+	width: 68px;
+}
+
+.k-key-tab{
+	width: 62px;
+}
+
+.k-key-caps{
+	width: 92px;
+}
+
+.k-key-delete{
+	width: 51px;
+}
+
+.k-key-shift-right{
+	width: 46px;
+}
+
+.k-key-shift-left{
+	width: 127px;
+}
+
+.k-key-enter{
+	width: 81px;
+}
+
+.k-key-control-left{
+	width: 79px;
+}
+
+.k-key-control-right{
+	width: 79px;
+}
+
+.k-key-space{
+	width: 301px;
+}
+
+.clearboth{
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.active{
+	background-color: #1C232E;
+}
